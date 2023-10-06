@@ -304,6 +304,10 @@ body.dark-theme{
 .filters__button:hover{
   background-color: var(--body-color);
 }
+
+.filters-tab-active{
+  background-color: var(--body-color);
+}
 /*=============== PROJECTS ===============*/
 .projects__card{
 
