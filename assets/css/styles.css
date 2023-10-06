@@ -86,10 +86,18 @@ img {
   color: var(--title-color);
   cursor: pointer; 
   transition: .3;
+  padding: 15px;
+  border: black solid;
 }
 
 .change-theme:hover{
   color: var(--first-color);
+}
+
+.theme_change{
+  padding: 15px;
+  border: #2F9BF4 solid;
+  border-radius: 50%;
 }
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
