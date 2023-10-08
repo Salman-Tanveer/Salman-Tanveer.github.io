@@ -11,12 +11,11 @@ tabs.forEach(tab =>{
 
         target.classList.add('filters__active')
     
-       tab.forEach( t =>{
-        t.classList.remove('filters-tab-active')
-       })
+        tabs.forEach( t =>{
+            t.classList.remove('filters-tab-active')
+        })
        
-       tab.classList.add('filters-tab-active')
-
+        tab.classList.add('filters-tab-active')
     })
 })
 
