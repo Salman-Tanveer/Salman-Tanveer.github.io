@@ -194,9 +194,7 @@ body.dark-theme{
 }
 
 .profile__info{
-  grid-template-columns: repeat(3, max-content);
-  justify-content: center;
-  column-gap: 2.5rem;
+  text-align: center;
 }
 
 .profile__info-group{
@@ -211,6 +209,7 @@ body.dark-theme{
 .profile__info-description{
   font-size: var(--smaller-font-size);
   font-weight: 500;
+  
 }
 .profile__buttons,
 .profile__buttons-small{
