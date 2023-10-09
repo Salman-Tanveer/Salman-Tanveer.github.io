@@ -54,3 +54,11 @@ themeButton.addEventListener('click', () => {
 })
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+const menuToggle = document.querySelector('.menu-icon');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('menu-active');
+
+});
